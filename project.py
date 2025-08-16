@@ -117,8 +117,8 @@ ans = choice(MoL)
 
 def main():
     clear_screen()
-    # innkeeper_dialogue()
-    # game_start()
+    innkeeper_dialogue()
+    game_start()
     hangman()
 
 # This is the innkeeper dialogue
@@ -323,3 +323,4 @@ def text_delay(anim_text):
 
 if __name__ == "__main__":
     main()
+
