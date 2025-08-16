@@ -10,7 +10,6 @@ os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 from pygame import mixer
 from random import choice
 
-# Welcome to my game
 # Rules of the game
 rules = [
     "Rule 1: Guess one letter at a time until you solve the hidden phrase.",
@@ -324,4 +323,3 @@ def text_delay(anim_text):
 
 if __name__ == "__main__":
     main()
-
